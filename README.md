@@ -55,14 +55,14 @@ The experiments were conducted on two architectures — **YOLOv8s** and **YOLOv1
 - YOLOv11s  
 
 ### 🔬 Experiments Conducted
-| Model | Activation Function | Description |
-|:------|:--------------------|:-------------|
-| YOLOv8 | SiLU *(Default)* | Baseline model |
-| YOLOv8 | ReLU | Simple non-linear activation |
-| YOLOv8 | LeakyReLU | Allows minor gradient flow for negative values |
-| YOLOv8 | **ELU (Best Performer)** | Smooth and efficient gradient handling |
-| YOLOv8 | Sigmoid | Bounded activation with limited performance |
-| YOLOv11 | SiLU *(Default)* | Used as benchmark comparison |
+| Model | Activation Function | mAP50 | mAP50-95 | 
+| ----- | ----- | ----- | ----- | 
+| **YOLOv8** | **ELU** | **0.989** | **0.801** | 
+| YOLOv8 | SiLU (Default) | 0.990 | 0.793 | 
+| YOLOv8 | ReLU | 0.988 | 0.799 | 
+| YOLOv8 | LeakyReLU | 0.991 | 0.795 | 
+| YOLOv8 | Sigmoid | 0.979 | 0.735 | 
+| YOLOv11 | SiLU (Default) | 0.989 | 0.799 |
 
 Each model was trained for **50 epochs** with the same dataset split.
 
