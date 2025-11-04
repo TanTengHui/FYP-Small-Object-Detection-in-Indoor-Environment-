@@ -68,29 +68,21 @@ Each model was trained for **50 epochs** with the same dataset split.
 
 ---
 
-## 🧰 4. Repository Structure
+## 🖼️ 4. FYP Poster
 
-```plaintext
-Small-Object-Detection/
-│
-├── YOLOv8-ELU/
-│   ├── best.pt
-│   ├── test.ipynb
-│
-├── YOLOv8-ReLU/
-│   ├── best.pt
-│   ├── test.ipynb
-│
-├── YOLOv8-LeakyReLU/
-│   ├── best.pt
-│   ├── test.ipynb
-│
-├── YOLOv8-Sigmoid/
-│   ├── best.pt
-│   ├── test.ipynb
-│
-├── YOLOv11/
-│   ├── best.pt
-│   ├── test.ipynb
-│
-└── README.md
+Below is the official poster for the project **"Small Object Detection in Indoor Environments"**.
+
+<p align="center">
+  <img src="poster/fyp_poster.png" alt="FYP Poster" width="800"/>
+</p>
+
+
+
+---
+
+## 🙏 Acknowledgements
+
+I would like to express my sincere gratitude to my FYP supervisor, **Ms. Shahbe**, for her invaluable guidance and continuous support throughout this project.
+
+---
+
