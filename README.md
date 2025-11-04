@@ -73,7 +73,7 @@ Each model was trained for **50 epochs** with the same dataset split.
 Below is the official poster for the project **"Small Object Detection in Indoor Environments"**.
 
 <p align="center">
-  <img src="Poster/fyp_poster.png" alt="FYP Poster" width="800"/>
+  <img src="Poster/FYP_Poster.png" alt="FYP Poster" width="800"/>
 </p>
 
 
